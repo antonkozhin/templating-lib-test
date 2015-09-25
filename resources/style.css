@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Source Sans Pro ExtraLight'), local('SourceSansPro-ExtraLight'), url(http://fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGCVh0V6fR69OLaFLklYbiSk.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(http://fonts.gstatic.com/s/sourcesanspro/v9/ODelI1aHBYDBqgeIAH2zlNV_2ngZ8dMf8fLgjYEouxg.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), url(http://fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGEo0As1BFRXtCDhS66znb_k.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Source Sans Pro Italic'), local('SourceSansPro-It'), url(http://fonts.gstatic.com/s/sourcesanspro/v9/M2Jd71oPJhLKp0zdtTvoMxgy2Fsj5sj3EzlXpqVXRKo.woff2) format('woff2');
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px none;
+}
+
+head, body {
+  width: 100%;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.title {
+  color: #13C4A5;
+  text-align: center;
+  border-bottom: 1px solid #D1D4D7;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  padding-top: 20px;
+  font-size: 45px;
+  font-family: "Source Sans Pro",sans-serif;
+  text-shadow: 0px 1px 0px rgba(51, 51, 51, 0.5);
+  font-weight: bold;
+}
+
+section {
+  background: #F5F6F7 none repeat scroll 0% 0%;
+}
+
+section div {
+  font-size: 16px;
+  padding: 0px 20px;
+  line-height: 24px;
+  font-family: "Source Sans Pro",sans-serif;
+  color: #666;
+}
+
+a, a:visited, a:active {
+  font-size: 25px;
+  font-weight: normal;
+  margin-bottom: 25px;
+  font-family: "Source Sans Pro",sans-serif;
+  color: #13C4A5;
+}
+
+a:hover { color:#777;}
