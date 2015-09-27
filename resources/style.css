@@ -60,7 +60,6 @@ head, body {
   text-align: center;
   border-bottom: 1px solid #D1D4D7;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
-  width: 100%;
   padding-top: 20px;
   font-size: 45px;
   font-family: "Source Sans Pro",sans-serif;
@@ -68,11 +67,7 @@ head, body {
   font-weight: bold;
 }
 
-section {
-  background: #F5F6F7 none repeat scroll 0% 0%;
-}
-
-section div {
+.tests {
   font-size: 16px;
   padding: 0px 20px;
   line-height: 24px;
@@ -80,12 +75,25 @@ section div {
   color: #666;
 }
 
-a, a:visited, a:active {
-  font-size: 25px;
-  font-weight: normal;
-  margin-bottom: 25px;
-  font-family: "Source Sans Pro",sans-serif;
-  color: #13C4A5;
+.test {
+  margin: 10px 0px;
 }
 
-a:hover { color:#777;}
+.test button {
+  border-radius: 5px;
+  color: #ffffff;
+  background: #eb5946;
+  padding: 2px;
+  margin: 0px 35px;
+}
+
+a, a:visited, a:active {
+  font-size: 25px;
+  font-family: "Source Sans Pro",sans-serif;
+  color: #13C4A5;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#777;
+}
